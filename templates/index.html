@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhed</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    
+    <div class="title">
+      <img src="/static/SIH2022-white-logo.png" alt="logo">
+      <h3>Login</h3>
+    </div>
+    <form action="#">
+      <div class="field">
+        <input type="text" required id="username">
+        <label>Username</label>
+      </div>
+      <br>
+      <div class="field">
+        <input type="submit" onclick="register()" value="Register">
+        <br><br>
+        <input type="submit" onclick="authenticate()" onclick="on()" value="Authenticate">
+      </div>
+      <br><br>
+      <br>
+      <span style='color: green;'>STATUS: </span><span id='status'></span>
+    </form>
+  </div>
+</body>
+<script src="/static/app.js"></script>
+</html>
